@@ -45,6 +45,36 @@ body{
 }
 /* text color */
 
+/* heading size */
+h2{
+    font-size: 40px;
+}
+@media(max-width: 700px){
+    h2{
+        font-size: 34px;
+    }
+}
+@media(max-width: 400px){
+    h2{
+        font-size: 25px;
+    }
+}
+
+h3{
+    font-size: 30px;
+}
+@media(max-width: 920px){
+    h3{
+        font-size: 25px;
+    }
+}
+@media(max-width: 400px){
+    h3{
+        font-size: 20px;
+    }
+}
+/* heading size */
+
 /* font size */
 .primary-font-size{
     font-size: 18px;
@@ -199,6 +229,76 @@ body{
 }
 /* h3 tag */
 
+/* h2 tag */
+.main-content .about h2{
+    font-size: 40px;
+}
+@media(max-width: 700px){
+    .main-content .about h2{
+        font-size: 34px;
+    }
+}
+@media(max-width: 400px){
+    .main-content .about h2{
+        font-size: 25px;
+    }
+}
+/* h2 tag */
+
 /* h tag */
+
+/* about content */
+.about{
+    padding: 100px 0;
+}
+@media(max-width: 700px){
+    .about{
+        padding: 50px 0;
+    } 
+}
+.about-me p{
+    width: 90%;
+    text-align: justify;
+}
+@media(max-width: 600px){
+    .about-me p{
+        width: 100%;
+    }
+}
+
+/* skills */
+.my-skills .skill-background-color{
+    background-color: #507687;
+    /* border: 1px solid hsla(0, 0%, 100%, .18); */
+    border: 1px solid #111;
+}
+/* skills */
+/* about content */
+
+/* project content */
+.project{
+    padding: 100px 0;
+}
+@media(max-width: 700px){
+    .project{
+        padding: 50px 0;
+    } 
+}
+/* portfolio img */
+.portfolio-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* portfolio img */
+
+/* portfolio card */
+.single-porfolio-card{
+    background-color: #507687;
+}
+/* portfolio card */
+
+/* project content */
+
 
 /* main-content */
