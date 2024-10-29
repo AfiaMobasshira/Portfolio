@@ -126,18 +126,18 @@ body{
 
 /*================ navbar menu dropdown ================*/
 .menu-dropdown{
-    background-color: #111;
+    background-color: #111111ed;
     width: 40%;
     z-index: 999;
-    top: 22%;
+    top: 25%;
     right: 0;
 }
 .hidden{
     display: none;
 }
-@media(max-width: 400px){
+@media(max-width: 800px){
     .menu-dropdown{
-        top: 18%;
+        top: 20%;
     }
 }
 
@@ -412,6 +412,13 @@ body{
 }
 .contact .contact-details{
     width: 80%;
+}
+.contact .contact-details .contact-option a{
+    text-decoration: none;
+}
+.contact .contact-details .contact-option a:hover{
+    text-decoration: underline;
+    transition: all ease 0.3s;
 }
 .contact .contact-form{
     background-color: #5076877b;
