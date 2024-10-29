@@ -29,11 +29,11 @@
                                 </svg>
                             </div>
                             <ul id="dropdown" class="position-absolute menu-dropdown text-center p-4 hidden">
-                                <li class="home text-color"><a href="javascript;:">Home</a></li>
-                                <li><a href="javascript;:">About</a></li>
-                                <li><a href="javascript;:">Project</a></li>
-                                <li><a href="javascript;:">Resume</a></li>
-                                <li><a href="javascript;:">Contact</a></li>
+                                <li class="home text-color"><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#portfolio">Project</a></li>
+                                <li><a href="#resume">Resume</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -45,34 +45,34 @@
         <div class="row justify-content-between">
             <!--============ Sidenav section start =============-->
             <div class="col-lg-2 sidenav position-fixed d-none d-lg-block">
-                <a href="javascript;:"><img src="./image/logo1.png" alt="" class="w-75 mx-auto"></a>
+                <a href="#home"><img src="./image/logo1.png" alt="" class="w-75 mx-auto"></a>
                 <ul class="py-3 links">
                     <li class="pb-3 font-600 primary-font-size home">
-                        <a href="javascript;:" class="text-decoration-none text-color">
+                        <a href="#home" class="text-decoration-none text-color">
                             <i class="fa-solid fa-house"></i>
                             <span class="ps-2">Home</span>
                         </a>
                     </li>
                     <li class="pb-3 font-600 primary-font-size">
-                        <a href="javascript;:" class="text-decoration-none text-color">
+                        <a href="#about" class="text-decoration-none text-color">
                             <i class="fa-solid fa-user"></i>
                             <span class="ps-2">About</span>
                         </a>
                     </li>
                     <li class="pb-3 font-600 primary-font-size">
-                        <a href="javascript;:" class="text-decoration-none text-color">
+                        <a href="#portfolio" class="text-decoration-none text-color">
                             <i class="fa-solid fa-desktop"></i>
                             <span class="ps-2">Project</span>
                         </a>
                     </li>
                     <li class="pb-3 font-600 primary-font-size">
-                        <a href="javascript;:" class="text-decoration-none text-color">
+                        <a href="#resume" class="text-decoration-none text-color">
                             <i class="fa-solid fa-file"></i>
                             <span class="ps-2">Resume</span>
                         </a>
                     </li>
                     <li class="pb-3 font-600 primary-font-size">
-                        <a href="javascript;:" class="text-decoration-none text-color">
+                        <a href="#contact" class="text-decoration-none text-color">
                             <i class="fa-solid fa-phone"></i>
                             <span class="ps-2">Contact</span>
                         </a>
@@ -87,7 +87,7 @@
             <!--============ Sidenav section end =============-->
             <div class="col-12 col-lg-10 position-absolute main-content">
                 <!--============ Home section start =============-->
-                <section>
+                <section id="home">
                     <div class="row justify-content-between align-items-center">
                         <div class="col-12 col-lg-6 text-center text-lg-start home">
                             <h3 class="lh-sm">Hello<span class="primary-color">!</span> I am</h3>
@@ -109,7 +109,7 @@
                 <!--============ Home section end =============-->
                 <div class="border border-top-0 border-warning mt-5"></div>
                 <!--============ About section start =============-->
-                <section>
+                <section id="about">
                     <div class="about">
                         <div class="row justify-content-between">
                             <div class="col-12 col-lg-6">
@@ -193,10 +193,10 @@
                 <!--============ About section end =============-->
                 <div class="border border-top-0 border-warning"></div>
                 <!--============ Portfolio section start =============-->
-                <section>
+                <section id="portfolio">
                     <div class="project">
                         <div class="text-center">
-                            <h2 class="">Portfolio Work</h2>
+                            <h2 class="text-white">Portfolio Work</h2>
                             <p class="primary-font-size">Some of the projects I'm involved in</p>
                         </div>
                         <div class="secondary-font-size portfolio-cards pt-5">
@@ -287,7 +287,7 @@
                 <!--============ Portfolio section end =============-->
                 <div class="border border-top-0 border-warning"></div>
                 <!--============ Resume section start =============-->
-                <section>
+                <section id="resume">
                     <div class="resume">
                         <div class="text-white text-center">
                             <h2>Afia Mobasshira</h2>
@@ -305,7 +305,7 @@
                             </div>
                         </div>
                         <div class="resume-content py-3 w-100">
-                            <p class="">I am a front-end web developer passionate about crafting responsive and visually appealing websites. I have foundational skills in <span class="primary-color font-600">HTML, CSS, and JavaScript (Basic)</span>, with experience using frameworks like <span class="primary-color font-600">Bootstrap and Tailwind CSS</span> to create modern, mobile-friendly designs. I’m eager to expand my skills, dive deeper into JavaScript, and explore new front-end technologies. I am always ready to learn and grow. My goal is to become a proficient web developer, contributing effectively to exciting projects.</p>
+                            <p class="">I am a front-end web developer passionate about crafting responsive and visually appealing websites. I have foundational skills in <span class="primary-color font-600">HTML, CSS, and JavaScript (Basic)</span>, with experience using frameworks like <span class="primary-color font-600">Tailwind CSS and Bootstrap</span> to create modern, mobile-friendly designs. I’m eager to expand my skills, dive deeper into JavaScript, and explore new front-end technologies. I am always ready to learn and grow. My goal is to become a proficient web developer, contributing effectively to exciting projects.</p>
                             <div class="tech-skill py-3">
                                 <span class="d-flex gap-2">
                                     <svg class="w-6 h-6 primary-color" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 24 24">
@@ -444,6 +444,74 @@
                 </section>
                 <div class="border border-top-0 border-warning"></div>
                 <!--============ Resume section end =============-->
+                <!--============ Contact section start ===========-->
+                <section id="contact">
+                    <div class="contact">
+                        <div class="row align-items-center gap-3 gap-md-0">
+                            <div class="col-md-6">
+                                <div class="contact-details">
+                                    <h2 class="text-white">Contact</h2>
+                                    <h4 class="primary-color">My Contact Details</h4>
+                                    <p>Feel free to connect with me. I'm always open to new connections and opportunities. <span class="primary-color font-600">The contact form on this page is also available for your convenience.</span></p>
+                                    <div>
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <i class="fa-regular fa-envelope primary-color"></i>
+                                            <span class="secondary-color"><span class="font-500 primary-font-size text-white">Email:</span> amobasshira4@gmail.com</span>
+                                        </div>
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <i class="fa-brands fa-square-git primary-color"></i>
+                                            <span class="secondary-color"><span class="font-500 primary-font-size text-white">Github:</span> AfiaMobasshira</span>
+                                        </div>
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <i class="fa-brands fa-linkedin-in primary-color"></i>
+                                            <span class="secondary-color"><span class="font-500 primary-font-size text-white">Linkedin:</span> afia mobasshira</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 contact-form p-4 rounded-2">
+                                <h2 class="text-white">Contact Form</h2>
+                                <form id="contactForm" method="POST" action="https://script.google.com/macros/s/AKfycbyBdFF2NcTuVkTihEHlPJilU_KB99NlVJT0aoC-vBiZRn1Cz7VSfsuj2n5MtzDxrGBrQQ/exec" class="form">
+                                    <!-- Name input -->
+                                    <div data-mdb-input-init class="form-outline mb-4">
+                                        <label class="form-label" for="form4Example1">Name</label>
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter Name" required />
+                                    </div>
+                                  
+                                    <!-- Email input -->
+                                    <div data-mdb-input-init class="form-outline mb-4">
+                                        <label class="form-label" for="form4Example2">Email address</label>
+                                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter Email" required/>
+                                    </div>
+                                  
+                                    <!-- Message input -->
+                                    <div data-mdb-input-init class="form-outline mb-4">
+                                        <label class="form-label" for="form4Example3">Message</label>
+                                        <textarea type="message" id="message" name="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                                    </div>
+                                  
+                                    <!-- Checkbox -->
+                                    <!-- <div class="form-check d-flex justify-content-center mb-4">
+                                      <input
+                                        class="form-check-input me-2"
+                                        type="checkbox"
+                                        value=""
+                                        id="form4Example4"
+                                        checked
+                                      />
+                                      <label class="form-check-label" for="form4Example4">
+                                        Send me a copy of this message
+                                      </label>
+                                    </div> -->
+                                  
+                                    <!-- Submit button -->
+                                    <button type="submit" class="btn btn-outline-warning font-500">Submit</button>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--============ Contact section end =============-->
             </div>
         </div>
        </div>

@@ -18,4 +18,37 @@ var typed = new Typed(".auto-input",{
 })
 //auto type //
 
+//contact form success message submission
+const form = document.getElementById("contactForm");
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    fetch(form.action, {
+      method: "POST",
+      body: new FormData(form)
+    })
+    .then(response => response.text())
+    .then((text) => {
+      alert("Thank you! Your message has been received.");
+      form.reset();
+    })
+    .catch(error => console.error("Error!", error.message));
+  });
+//contact form success message submission
+
+//Adding Optional JavaScript for Enhanced Scroll Control (Optional)
+//If need custom scroll behavior (e.g., control scroll speed or adjust offsets), can use JavaScript for more control.
+//=============================//
+  // Select all links with hashes
+//   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//     anchor.addEventListener("click", function(e) {
+//       e.preventDefault();
+
+//       // Smoothly scroll to the target section
+//       document.querySelector(this.getAttribute("href")).scrollIntoView({
+//         behavior: "smooth",
+//         block: "start"
+//       });
+//     });
+//   });
+//=============================//
   

@@ -35,47 +35,21 @@
 
 body{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,21,129,1) 39%, rgba(7,34,137,1) 59%, rgba(9,9,121,0.9920343137254902) 100%, rgba(0,212,255,1) 100%);
+    scroll-behavior: smooth;
 }
-/* text color */
+/*================ text color ============== */
 .text-color{
     color:#D9D9D9;
 }
 .primary-color{
     color: #EC8305;
 }
-/* text color */
+.secondary-color{
+    color: #EECAD5;
+}
+/*================ text color ============== */
 
-/* heading size */
-h2{
-    font-size: 40px;
-}
-@media(max-width: 700px){
-    h2{
-        font-size: 34px;
-    }
-}
-@media(max-width: 400px){
-    h2{
-        font-size: 25px;
-    }
-}
-
-h3{
-    font-size: 30px;
-}
-@media(max-width: 920px){
-    h3{
-        font-size: 25px;
-    }
-}
-@media(max-width: 400px){
-    h3{
-        font-size: 20px;
-    }
-}
-/* heading size */
-
-/* font size */
+/*================ font size ================*/
 .primary-font-size{
     font-size: 18px;
 }
@@ -87,9 +61,10 @@ h3{
         font-size: 16px;
     }
 }
-/* font size */
+/*================ font size ================*/
 
-/* font weight */
+
+/*================ font weight ================*/
 .font-300{
     font-weight: 300;
 }
@@ -111,10 +86,10 @@ h3{
 .font-900{
     font-weight: 900;
 }
-/* font weight */
+/*================ font weight ================*/
 
 
-/* side navbar */
+/*================ side navbar ================*/
 .sidenav .links a:hover{
     color:#EC8305;
     transition: 0.5s ease;
@@ -128,9 +103,9 @@ h3{
     color: #EC8305;
     transition: 0.3s ease;
 }
-/* side navbar */
+/*================ side navbar ================*/
 
-/* navbar logo image size */
+/*================ navbar logo image size ================*/
 .nav-logo-img{
     width: 30%;
 }
@@ -147,9 +122,9 @@ h3{
         width: 32px;
     }
 }
-/* navbar logo image size */
+/*================ navbar logo image size ================*/
 
-/* navbar menu dropdown */
+/*================ navbar menu dropdown ================*/
 .menu-dropdown{
     background-color: #111;
     width: 40%;
@@ -181,9 +156,9 @@ h3{
 .menu-dropdown li a:hover{
     color:black;
 }
-/* navbar menu dropdown */
+/*================ navbar menu dropdown ================*/
 
-/* main-content */
+/*================ main-content ================*/
 .main-content{
     right: 0;
     padding-top: 80px;
@@ -195,9 +170,9 @@ h3{
     }
 }
 
-/* h tag */
+/*================ h tag ================*/
 
-/* h1 tag */
+/*================ h1 tag ================*/
 .main-content h1{
     font-size: 50px;
     font-weight: 800;
@@ -212,9 +187,9 @@ h3{
         font-size: 30px;
     }
 }
-/* h1 tag */
+/*================ h1 tag ================*/
 
-/* h3 tag */
+/*================ h3 tag ================*/
 .main-content h3{
     font-size: 30px;
 }
@@ -228,9 +203,9 @@ h3{
         font-size: 20px;
     }
 }
-/* h3 tag */
+/*================ h3 tag ================*/
 
-/* h2 tag */
+/*================ h2 tag ================*/
 .main-content .about h2{
     font-size: 40px;
 }
@@ -244,11 +219,11 @@ h3{
         font-size: 25px;
     }
 }
-/* h2 tag */
+/*================ h2 tag ================*/
 
-/* h tag */
+/*================ h tag ================*/
 
-/* about content */
+/*================ about content ================*/
 .about{
     padding: 100px 0;
 }
@@ -267,33 +242,44 @@ h3{
     }
 }
 
-/* skills */
+/*================ skills ================*/
 .my-skills .skill-background-color{
     background-color: #507687;
     /* border: 1px solid hsla(0, 0%, 100%, .18); */
     border: 1px solid #111;
 }
-/* skills */
-/* about content */
+/*================ skills ================*/
+/*================ about content ================*/
 
-/* project content */
+/*================ project content ================*/
 .project{
     padding: 100px 0;
 }
-@media(max-width: 700px){
+.project h2{
+    font-size: 40px;
+}
+@media(max-width: 796px){
     .project{
         padding: 50px 0;
     } 
+    .project h2{
+        font-size: 32px;
+    }
 }
-/* portfolio img */
+@media(max-width: 500px){
+    .project h2{
+        font-size: 28px;
+    }
+}
+/*================ portfolio img ================*/
 .portfolio-image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-/* portfolio img */
+/*================ portfolio img ================*/
 
-/* portfolio card */
+/*================ portfolio card ================*/
 .portfolio-cards{
     display: flex;
     flex-wrap: wrap;
@@ -320,11 +306,11 @@ h3{
         width: 100%;
     }
 }
-/* portfolio card */
+/*================ portfolio card ================*/
 
-/* project content */
+/*================ project content ================*/
 
-/* resume content */
+/*================ resume content ================*/
 .resume{
     padding: 100px 0;
 }
@@ -412,7 +398,46 @@ h3{
         font-size: 30px;
     }
 }
-/* resume content */
+/*================ resume content ================*/
 
+/*================ contact content ================*/
+.contact{
+    padding: 100px 0;
+}
+.contact h2{
+    font-size: 40px;
+}
+.contact h4{
+    font-size: 28px;
+}
+.contact .contact-details{
+    width: 80%;
+}
+.contact .contact-form{
+    background-color: #5076877b;
+}
+@media(max-width: 796px){
+    .contact{
+        padding: 50px 0;
+    }
+    .contact h2{
+        font-size: 32px;
+    }
+    .contact h4{
+        font-size: 22px;
+    }
+}
+@media(max-width: 500px){
+    .contact h2{
+        font-size: 28px;
+    }
+    .contact h4{
+        font-size: 20px;
+    }
+    .contact .contact-details{
+        width: 100%;
+    }
+}
+/*================ contact content ================*/
 
-/* main-content */
+/*================ main-content ================*/
